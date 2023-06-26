@@ -1,5 +1,8 @@
 <?php
+
 namespace SMAutoloader\View;
+
+use SMAutoloader\Controller\UserController;
 
 /**
  * @author Sulaiman Misri
@@ -10,7 +13,7 @@ class UserView
 {
     public static function init()
     {
-        echo 'Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.';
+        echo UserController::init();
     }
 }
 

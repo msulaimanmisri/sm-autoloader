@@ -1,7 +1,18 @@
 {
+    "description": "Plugin boilerplate for Sulaiman development",
+    "type": "project",
+    "license": "GPL",
     "autoload": {
         "psr-4": {
-            "SMAutoloader\\" : "Src/"
+            "SMAutoloader\\": "Src/"
         }
-    }
+    },
+    "authors": [
+        {
+            "name": "Sulaiman Misri",
+            "email": "msulaimanmisri@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
 }
