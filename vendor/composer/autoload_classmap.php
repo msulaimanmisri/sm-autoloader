@@ -7,6 +7,4 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
-    'SMAutoloader\\Controller\\UserController' => $baseDir . '/Src/Controller/UserController.php',
-    'SMAutoloader\\View\\UserView' => $baseDir . '/Src/View/UserView.php',
 );

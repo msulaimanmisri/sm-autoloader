@@ -17,5 +17,6 @@ if (!defined('ABSPATH')) {
     die('Sorry, but you can not directly access this file.');
 }
 
-require plugin_dir_path(__FILE__) . 'vendor/autoload.php';
-// require "Src/Controller/UserController.php";
+if (file_exists(dirname(__FILE__) . '/vendor/autoload.php')) {
+    require_once plugin_dir_path(__FILE__) . 'vendor/autoload.php';
+}
